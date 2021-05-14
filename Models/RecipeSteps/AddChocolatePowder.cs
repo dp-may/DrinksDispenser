@@ -10,7 +10,7 @@ namespace DrinksDispenser.Models
         public bool CanPerformStep()
         {
             // check for chocolate powder
-            return false;
+            return true;
         }
 
         public bool PerformStep()
